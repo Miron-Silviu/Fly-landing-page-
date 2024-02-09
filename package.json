@@ -4,6 +4,8 @@
   "description": "![Design preview for the Fylo landing page with two column layout challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "devDependencies": {
+    "postcss": "^8.4.35",
+    "postcss-cli": "^11.0.0",
     "tailwindcss": "^3.4.1"
   },
   "scripts": {
