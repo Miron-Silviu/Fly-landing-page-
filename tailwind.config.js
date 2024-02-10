@@ -2,6 +2,12 @@
 module.exports = {
   content: ["./docs/**/*.{html,js}"],
   theme: {
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
+    },
     extend: {
       colors: {
         // primary
@@ -18,20 +24,19 @@ module.exports = {
         "Light-Grayish-Blue": "hsl(240, 75%, 98%)",
         "Light-Gray": "hsl(0, 0%, 75%)",
       },
+      body: {
+        // paragraph
+        "font size": "16px",
+      },
+      fonts: {
+        // headings,call-to-action, header navigation
+        "font-family": "'Raleway', sans-serif",
+
+        // Body
+
+        "font-family": "'Open Sans', sans-serif",
+      },
     },
   },
   plugins: [],
-
-  body: {
-    // paragraph
-    "font size": "16px",
-  },
-  fonts: {
-    // headings,call-to-action, header navigation
-    "font-family": "'Raleway', sans-serif",
-
-    // Body
-
-    "font-family": "'Open Sans', sans-serif",
-  },
 };
