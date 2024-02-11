@@ -36,6 +36,10 @@ module.exports = {
 
         "font-family": "'Open Sans', sans-serif",
       },
+      backgroundImage: {
+        "mobile-size": "url('./images/bg-curve-mobile.svg')",
+        "desktop-size": "url('./images/bg-curve-desktop.svg')",
+      },
     },
   },
   plugins: [],
