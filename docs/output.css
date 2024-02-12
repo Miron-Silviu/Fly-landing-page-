@@ -567,6 +567,10 @@ video {
   display: flex;
 }
 
+.inline-flex {
+  display: inline-flex;
+}
+
 .w-24 {
   width: 6rem;
 }
@@ -599,10 +603,6 @@ video {
 .bg-Bright-Blue {
   --tw-bg-opacity: 1;
   background-color: hsl(224 93% 58% / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\/images\/bg-curve-mobile\.svg\'\)\] {
-  background-image: url('/images/bg-curve-mobile.svg');
 }
 
 .bg-\[url\(\'\.\/images\/bg-curve-mobile\.svg\'\)\] {
