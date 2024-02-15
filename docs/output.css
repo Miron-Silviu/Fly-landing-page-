@@ -597,10 +597,6 @@ video {
   background-color: hsl(224 93% 58% / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\/images\/bg-curve-mobile\.svg\'\)\] {
-  background-image: url('./images/bg-curve-mobile.svg');
-}
-
 .px-11 {
   padding-left: 2.75rem;
   padding-right: 2.75rem;
@@ -630,13 +626,16 @@ video {
   text-align: center;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-* {
-  font-family: "Raleway", sans-serif;
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
 }
