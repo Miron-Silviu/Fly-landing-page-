@@ -24,18 +24,7 @@ module.exports = {
         "Light-Grayish-Blue": "hsl(240, 75%, 98%)",
         "Light-Gray": "hsl(0, 0%, 75%)",
       },
-      body: {
-        // paragraph
-        "font size": "16px",
-      },
-      fonts: {
-        // headings,call-to-action, header navigation
-        "font-family": "'Raleway', sans-serif",
 
-        // Body
-
-        "font-family": "'Open Sans', sans-serif",
-      },
       backgroundImage: {
         "mobile-size": "url('./images/bg-curve-mobile.svg')",
         "desktop-size": "url('./images/bg-curve-desktop.svg')",
