@@ -567,6 +567,10 @@ video {
   display: flex;
 }
 
+.inline-flex {
+  display: inline-flex;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -592,9 +596,9 @@ video {
   border-color: rgb(7 4 57 / var(--tw-border-opacity));
 }
 
-.bg-Bright-Blue {
+.bg-blue-400 {
   --tw-bg-opacity: 1;
-  background-color: hsl(224 93% 58% / var(--tw-bg-opacity));
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
 }
 
 .px-1 {
