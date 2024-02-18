@@ -7,12 +7,12 @@
     <link rel="icon" type="image/x-icon" href="../images/favicon-32x32.png" />
 
     <title>Fylo landing page with two column layout</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@400,700&display=swap"
       rel="stylesheet"
-    />
+    /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -27,13 +27,13 @@
     <!-- header -->
     <header>
       <menu class=" flex place-content-between my-9 mx-6">
-        <img src="logo.svg" alt="logo" />
-        <ul class="flex gap-6">
+        <img class="w-15 h-8" src="logo.svg" alt="logo" />
+        <ul class="xs: hidden sm:hidden md:flex gap-6  ">
           <li><a href="#">Features</a></li>
           <li><a href="#">Team</a></li>
           <li><a href="#">Sign In</a></li>
         </ul>
-        <img class="w-8" src="menu.svg" alt="menu" />
+        <img class="w-6 h-6 md:hidden " src="menu.svg" alt="menu" />
       </menu>
       <div class=" md:felx ilustration-container mt-36 mx-6">
         <img src="illustration-1.svg" alt="illustration-1" />
@@ -60,7 +60,7 @@
             Get Started
           </button>
         </div>
-        <img src="../docs/images/illustration-1.svg" alt="illustration-1" />
+        <img src="illustration-1.svg" alt="illustration-1" />
       </div>
     </header>
   </body>
