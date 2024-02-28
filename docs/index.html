@@ -104,7 +104,7 @@
               /></a>
             </div>
           </div>
-          <article class="bg-white m-10 rounded-md ">
+          <article class="bg-white rounded-md m-5 md:w-1/2">
             <img class="ml-5 pt-5 w-5" src="icon-quotes.svg" alt="quotes" />
             <p class="m-5 tracking-wider text-sm ">
               Fylo has improved our team productivity by an order of magnitude.
@@ -125,21 +125,28 @@
           </article>
         </div>
       </div>
-      <div class=" bg-indigo-400 sign-up-container text-center">
-        <h3 class="font-bold text-white m-5 pt-5 ">Get early access today</h3>
-        <p class="m-5 px-4 text-white ">
-          It will takes a minute to sign up and our free starter tier is
-          extremely generous. If you have any question, our support team would
-          be happy to help you.
-        </p>
-        <div class="mx-4">
+      <div
+        class=" bg-indigo-400 sign-up-container text-center md:flex md:p-20 align-middle"
+      >
+        <div class="info-sign-up-container md:flex md:flex-col md:align-top">
+          <h3 class="font-bold text-white sm:m-5 sm:pt-5 md:text-left  ">
+            Get early access today
+          </h3>
+          <p class=" sm:px-4 text-white md:text-left md:w-1/2 align-middle">
+            It will takes a minute to sign up and our free starter tier is
+            extremely generous. If you have any question, our support team would
+            be happy to help you.
+          </p>
+        </div>
+        <div class="md:align-bottom flex flex-col">
           <input
-            class="rounded px-5 py-3 my-3 w-58"
+            class="rounded px-5 py-3 my-3 w-58 "
             type="email"
             id="email"
             placeholder="Enter your email..."
             required
           />
+
           <button
             class=" w-58 rounded mb-5 m-auto py-3 px-11 bg-blue-500 text-white text-center"
             type="button"
