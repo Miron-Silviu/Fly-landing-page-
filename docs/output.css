@@ -610,8 +610,16 @@ video {
   margin-top: 10rem;
 }
 
+.inline {
+  display: inline;
+}
+
 .flex {
   display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
 }
 
 .hidden {
@@ -668,6 +676,10 @@ video {
 
 .place-content-between {
   place-content: space-between;
+}
+
+.place-content-evenly {
+  place-content: space-evenly;
 }
 
 .items-center {
@@ -870,6 +882,10 @@ video {
 
   .xs\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .xs\:hidden {
+    display: none;
   }
 
   .xs\:h-10 {

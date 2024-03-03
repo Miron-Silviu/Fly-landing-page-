@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Put Your files in one secure location">
+    <meta name="description" content="Put Your files in one secure location" />
     <link rel="icon" type="image/x-icon" href="../images/favicon-32x32.png" />
     <title>Fylo landing page with two column layout</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,32 +19,34 @@
   <body class="bg-Light-Grayish-Blue">
     <!-- header -->
     <header>
-      <menu
+      <img class="header-img w-15 h-8 " src="logo.svg" alt="logo" />
+
+      <nav
         class="header-menu
       flex
       place-content-between 
        my-9 mx-6"
       >
-        <img class="header-img w-15 h-8" src="logo.svg" alt="logo" />
         <ul
           class=" header-menu-list
-        xs: hidden 
-        sm:hidden
-         md:flex gap-6  "
+              xs: hidden
+              sm:hidden
+               md:flex gap-6  "
         >
           <li><a href="#">Features</a></li>
           <li><a href="#">Team</a></li>
           <li><a href="#">Sign In</a></li>
         </ul>
-        <img
-          class=" menu-img
-        w-6 
-        h-6 
-        md:hidden "
-          src="menu.svg"
-          alt="menu"
-        />
-      </menu>
+      </nav>
+      <img
+        class=" menu-img
+            w-6
+            h-6
+            md:hidden "
+        src="menu.svg"
+        alt="menu"
+      />
+
       <div
         class="ilustration-container 
         mt-36 
@@ -315,7 +317,7 @@
     md:justify-between"
     >
       <div>
-        <img class="footer-logo-img p-10" src="logo footer.svg" alt=" logo" />
+        <img class="footer-logo-img p-10" src="logo-footer.svg" alt="logo" />
         <h4 class="text-white flex px-10">
           <img
             class="footer-phone-img px-4"
@@ -362,29 +364,31 @@
       pt-20 
       md:pr-10"
       >
-
-       <a class="footer-facebook-img
+        <a
+          class="footer-facebook-img
        w-3 
-       m-5"href="#"><img src="facebook-f.svg" 
-       alt="facebook"> </a>
-        </img>
+       m-5"
+          href="#"
+          ><img src="facebook-f.svg" alt="facebook" />
+        </a>
 
-
-       <a class=" footer-X-img 
+        <a
+          class=" footer-X-img 
        w-4 
-       m-5 " 
-       href="#"><img 
-       src="/docs/x-twitter.svg" 
-       alt="X"></a>
-        </img>
+       m-5"
+          href="#"
+          ><img src="/docs/x-twitter.svg" alt="X" />
+        </a>
 
-
-       <a class="footer-instagram-img 
-       w-4 
-       m-5" href="#"><img src="instagram.svg" 
-       alt="instagram"> </a>
-        </img>
-
+        <a href="#">
+          <img
+            class="footer-instagram-img 
+      w-4 
+      m-5"
+            src="instagram.svg"
+            alt="instagram"
+          />
+        </a>
       </div>
     </footer>
   </body>
