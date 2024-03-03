@@ -889,14 +889,14 @@ video {
     padding-right: 1.25rem;
   }
 
-  .xs\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
-
   .xs\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .xs\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
   }
 }
 
@@ -911,10 +911,6 @@ video {
 
   .sm\:hidden {
     display: none;
-  }
-
-  .sm\:h-10 {
-    height: 2.5rem;
   }
 
   .sm\:w-1\/2 {
@@ -933,16 +929,6 @@ video {
   .sm\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
-  }
-
-  .sm\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .sm\:text-xs {
-    font-size: 0.75rem;
-    line-height: 1rem;
   }
 }
 
