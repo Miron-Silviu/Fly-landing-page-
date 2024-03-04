@@ -15,14 +15,13 @@
     <link rel="stylesheet" href="input.css" />
     <link rel="stylesheet" href="output.css" />
     <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body class="bg-Light-Grayish-Blue">
     <!-- header -->
-    <header data-aos="fade-right">
+    <header>
       <div class="logo-nav-container flex justify-between p-5">
         <img class=" header-img w-15 h-8 " src="logo.svg" alt="logo" />
-        <!-- <div class="ml-96"></div> -->
+
         <nav
           class="header-menu
         flex 
@@ -34,9 +33,9 @@
                 sm:hidden
                  md:flex gap-6  "
           >
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Sign In</a></li>
+            <li class="hover:animate-pulse"><a href="#">Features</a></li>
+            <li class="hover:animate-pulse"><a href="#">Team</a></li>
+            <li class="hover:animate-pulse"><a href="#">Sign In</a></li>
           </ul>
         </nav>
 
@@ -120,7 +119,7 @@
               px-11 
               bg-blue-500 
               text-white 
-              text-center"
+              text-center hover:animate-pulse"
               type="button"
             >
               Get Started
@@ -175,7 +174,7 @@
           >
             <div>
               <a
-                class=" pointer flex text-green-600 underline text-left"
+                class=" pointer flex text-green-600 underline text-left hover:animate-pulse"
                 href="#"
                 >See how Fly works<img
                   class="pl-2 md:text-left"
@@ -221,7 +220,6 @@
         </div>
       </div>
       <div
-        data-aos="fade-up"
         class=" main-form-container
          bg-indigo-400 
          sign-up-container 
@@ -232,7 +230,6 @@
         md:p-20 "
       >
         <div
-          data-aos="fade-right"
           class="info-sign-up-container  
           md:flex 
           md:flex-col 
@@ -267,7 +264,6 @@
           </p>
         </div>
         <div
-          data-aos="fade-left"
           class="second-form-container
           xs:w-1/2 
           xs:m-auto 
@@ -307,7 +303,7 @@
             sm:text-sm 
             md:w-2/3 
             md:h-auto 
-            md:text-xs "
+            md:text-xs hover:animate-pulse"
             type="button"
           >
             Get Started For Free
@@ -317,13 +313,12 @@
     </main>
     <!-- Footer -->
     <footer
-      data-aos="fade-up"
       class="footer-container
     bg-indigo-950 
     md:flex 
     md:justify-between"
     >
-      <div data-aos="fade-up">
+      <div>
         <img class="footer-logo-img p-10" src="logo-footer.svg" alt="logo" />
         <h4 class="text-white flex px-10">
           <img
@@ -347,25 +342,23 @@
         </h4>
       </div>
       <div
-        data-aos="fade-right"
         class="footer-list-contaier
       md:flex 
       align-middle"
       >
         <ul class="text-white pl-12 pt-20 pb-10 ">
-          <li class="pb-4 "><a href="#">About us</a></li>
-          <li class="pb-4"><a href="#">Jobs</a></li>
-          <li class="pb-4"><a href="#">Press</a></li>
-          <li class="pb-4"><a href="#">Blog</a></li>
+          <li class="pb-4 hover:animate-pulse"><a href="#">About us</a></li>
+          <li class="pb-4 hover:animate-pulse"><a href="#">Jobs</a></li>
+          <li class="pb-4 hover:animate-pulse"><a href="#">Press</a></li>
+          <li class="pb-4 hover:animate-pulse"><a href="#">Blog</a></li>
         </ul>
         <ul class="text-white pl-12 pb-10 pt-20">
-          <li class="pb-4"><a href="#">Contact Us</a></li>
-          <li class="pb-4"><a href="#">Terms</a></li>
-          <li class="pb-4"><a href="#">Privacy</a></li>
+          <li class="pb-4 hover:animate-pulse"><a href="#">Contact Us</a></li>
+          <li class="pb-4 hover:animate-pulse"><a href="#">Terms</a></li>
+          <li class="pb-4 hover:animate-pulse"><a href="#">Privacy</a></li>
         </ul>
       </div>
       <div
-        data-aos="fade-left"
         class="footer-social-media-contaier 
       flex 
       justify-center 
@@ -376,7 +369,8 @@
         <a
           class="footer-facebook-img
        w-3 
-       m-5"
+       m-5 
+       hover:animate-pulse"
           href="#"
           ><img src="facebook-f.svg" alt="facebook" />
         </a>
@@ -384,7 +378,8 @@
         <a
           class=" footer-X-img 
        w-4 
-       m-5"
+       m-5 
+       hover:animate-pulse"
           href="#"
           ><img src="x-twitter.svg" alt="X" />
         </a>
@@ -393,16 +388,13 @@
           <img
             class="footer-instagram-img 
       w-4 
-      m-5"
+      m-5 
+      hover:animate-pulse"
             src="instagram.svg"
             alt="instagram"
           />
         </a>
       </div>
     </footer>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
   </body>
 </html>
