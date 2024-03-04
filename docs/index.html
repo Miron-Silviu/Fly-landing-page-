@@ -19,33 +19,35 @@
   <body class="bg-Light-Grayish-Blue">
     <!-- header -->
     <header>
-      <img class="header-img w-15 h-8 " src="logo.svg" alt="logo" />
-
-      <nav
-        class="header-menu
-      flex
-      place-content-between 
-       my-9 mx-6"
-      >
-        <ul
-          class=" header-menu-list
-              xs: hidden
-              sm:hidden
-               md:flex gap-6  "
+      <div class="logo-nav-container flex justify-between p-5">
+        <img class=" header-img w-15 h-8 " src="logo.svg" alt="logo" />
+        <!-- <div class="ml-96"></div> -->
+        <nav
+          class="header-menu
+        flex 
+         "
         >
-          <li><a href="#">Features</a></li>
-          <li><a href="#">Team</a></li>
-          <li><a href="#">Sign In</a></li>
-        </ul>
-      </nav>
-      <img
-        class=" menu-img
-            w-6
-            h-6
-            md:hidden "
-        src="menu.svg"
-        alt="menu"
-      />
+          <ul
+            class=" header-menu-list
+                xs: hidden
+                sm:hidden
+                 md:flex gap-6  "
+          >
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Sign In</a></li>
+          </ul>
+        </nav>
+
+        <img
+          class=" menu-img
+              w-6
+              h-6
+              md:hidden "
+          src="menu.svg"
+          alt="menu"
+        />
+      </div>
 
       <div
         class="ilustration-container 
