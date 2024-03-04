@@ -15,10 +15,11 @@
     <link rel="stylesheet" href="input.css" />
     <link rel="stylesheet" href="output.css" />
     <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body class="bg-Light-Grayish-Blue">
     <!-- header -->
-    <header>
+    <header data-aos="fade-right">
       <div class="logo-nav-container flex justify-between p-5">
         <img class=" header-img w-15 h-8 " src="logo.svg" alt="logo" />
         <!-- <div class="ml-96"></div> -->
@@ -135,14 +136,14 @@
       md:flex 
       flex-row-reverse"
       >
-        <div>
+        <div data-aos="fade-up">
           <img
             class="main-ilustration-img"
             src="illustration-2.svg"
             alt="illustration-2"
           />
         </div>
-        <div class="main-info-contntainer ">
+        <div class="main-info-contntainer " data-aos="fade-up">
           <div>
             <h2
               class=" main-title
@@ -220,6 +221,7 @@
         </div>
       </div>
       <div
+        data-aos="fade-up"
         class=" main-form-container
          bg-indigo-400 
          sign-up-container 
@@ -230,6 +232,7 @@
         md:p-20 "
       >
         <div
+          data-aos="fade-right"
           class="info-sign-up-container  
           md:flex 
           md:flex-col 
@@ -264,6 +267,7 @@
           </p>
         </div>
         <div
+          data-aos="fade-left"
           class="second-form-container
           xs:w-1/2 
           xs:m-auto 
@@ -313,12 +317,13 @@
     </main>
     <!-- Footer -->
     <footer
+      data-aos="fade-up"
       class="footer-container
     bg-indigo-950 
     md:flex 
     md:justify-between"
     >
-      <div>
+      <div data-aos="fade-up">
         <img class="footer-logo-img p-10" src="logo-footer.svg" alt="logo" />
         <h4 class="text-white flex px-10">
           <img
@@ -342,6 +347,7 @@
         </h4>
       </div>
       <div
+        data-aos="fade-right"
         class="footer-list-contaier
       md:flex 
       align-middle"
@@ -359,6 +365,7 @@
         </ul>
       </div>
       <div
+        data-aos="fade-left"
         class="footer-social-media-contaier 
       flex 
       justify-center 
@@ -393,5 +400,9 @@
         </a>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
