@@ -589,10 +589,6 @@ video {
   margin-left: 1.25rem;
 }
 
-.ml-96 {
-  margin-left: 24rem;
-}
-
 .mr-5 {
   margin-right: 1.25rem;
 }
@@ -655,6 +651,16 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 .flex-row-reverse {
@@ -864,6 +870,16 @@ video {
 
 .underline {
   text-decoration-line: underline;
+}
+
+@keyframes pulse {
+  50% {
+    opacity: .5;
+  }
+}
+
+.hover\:animate-pulse:hover {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
 @media (min-width: 220px) and (max-width: 320px) {
