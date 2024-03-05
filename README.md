@@ -23,12 +23,9 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
 
-(![image](https://github.com/Miron-Silviu/Fly-landing-page-/assets/119732322/c53e2e2f-61e1-4c5c-8554-65fc719eae26)
-])
 
-### Links
+### LINK
 
 - Solution URL: [https://miron-silviu.github.io/Fly-landing-page-/]( https://miron-silviu.github.io/Fly-landing-page-/)
 
@@ -59,3 +56,8 @@ Implementing tailwind it helped me how to use different types of classes for dif
 ### Useful resources
 
 - [Example resource 1](https://fontawesome.com/search?q=x&o=r) - This helped me for the social media icons . I really liked this pattern and will use it going forward.
+- 
+### Screenshot
+
+(![image](https://github.com/Miron-Silviu/Fly-landing-page-/assets/119732322/c53e2e2f-61e1-4c5c-8554-65fc719eae26)
+])
