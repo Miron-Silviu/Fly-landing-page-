@@ -25,7 +25,8 @@ Users should be able to:
 
 ### Screenshot
 
-(desktop-design.jpg])
+(![image](https://github.com/Miron-Silviu/Fly-landing-page-/assets/119732322/c53e2e2f-61e1-4c5c-8554-65fc719eae26)
+])
 
 ### Links
 
