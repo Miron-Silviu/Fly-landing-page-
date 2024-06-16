@@ -2,15 +2,15 @@ This is a solution to the [Fylo landing page with two column layout ]
 
 ## Table of contents
 
- - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-  - [Screenshot](#screenshot)
- - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [Overview](#overview)
+- [The challenge](#the-challenge)
+- [Links](#links)
+- [Screenshot](#screenshot)
+- [My process](#my-process)
+- [Built with](#built-with)
+- [What I learned](#what-i-learned)
+- [Continued development](#continued-development)
+- [Useful resources](#useful-resources)
 
 ## Overview
 
@@ -23,11 +23,12 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-
+- See hover states for all interactive elements on the page
+- Use menu button
 
 ## LINK
 
-[CLICK ME FOR LIVE VIEW]( https://miron-silviu.github.io/Fly-landing-page-/)
+[DEMO](https://miron-silviu.github.io/Fly-landing-page-/)
 
 ## My process
 
@@ -56,7 +57,8 @@ Implementing tailwind it helped me how to use different types of classes for dif
 ## Useful resources
 
 - [Example resource 1](https://fontawesome.com/search?q=x&o=r) - This helped me for the social media icons . I really liked this pattern and will use it going forward.
-- 
+-
+
 ## Screenshot
 
 (![image](https://github.com/Miron-Silviu/Fly-landing-page-/assets/119732322/c53e2e2f-61e1-4c5c-8554-65fc719eae26)
