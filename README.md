@@ -28,7 +28,7 @@ Users should be able to:
 
 ## LINK
 
-[DEMO](https://miron-silviu.github.io/Fly-landing-page-/)
+[VIEW DEMO](https://miron-silviu.github.io/Fly-landing-page-/)
 
 ## My process
 
