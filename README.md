@@ -1,4 +1,4 @@
-This is a solution to the [Fylo landing page with two column layout ]
+# This is a solution to the [Fylo landing page with two column layout ]
 
 ## Table of contents
 
