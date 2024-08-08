@@ -63,3 +63,4 @@ Implementing tailwind it helped me how to use different types of classes for dif
 
 (![image](https://github.com/Miron-Silviu/Fly-landing-page-/assets/119732322/c53e2e2f-61e1-4c5c-8554-65fc719eae26)
 ])
+<img width="951" alt="image" src="https://github.com/user-attachments/assets/a07983a9-6fe8-40b7-8e0c-a1e24b8e0906">
