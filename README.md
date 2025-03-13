@@ -2,15 +2,18 @@
 
 ## Table of contents
 
+- [LINK](#links)
 - [Overview](#overview)
 - [The challenge](#the-challenge)
-- [Links](#links)
 - [Screenshot](#screenshot)
 - [My process](#my-process)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
 - [Continued development](#continued-development)
 - [Useful resources](#useful-resources)
+
+ ## LINK
+[VIEW DEMO](https://miron-silviu.github.io/Fly-landing-page-/)
 
 ## Overview
 
@@ -26,9 +29,7 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - Use menu button
 
-## LINK
 
-[VIEW DEMO](https://miron-silviu.github.io/Fly-landing-page-/)
 
 ## My process
 
